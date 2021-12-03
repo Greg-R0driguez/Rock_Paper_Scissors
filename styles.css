@@ -1,0 +1,25 @@
+body {
+    background-color: whitesmoke;    
+}
+.container {
+    text-align: center;
+    background-color: cadetblue;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid black;
+    padding: 50px;
+    border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+button {
+    color: cadetblue;
+    font-weight: bold;
+    width: 100px;
+    margin-bottom: 5px;
+    border-radius: 8px;
+    padding: 3px 0px 3px 0px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
