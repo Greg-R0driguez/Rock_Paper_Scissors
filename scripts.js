@@ -11,26 +11,26 @@ const rule2 = "Paper covers Rock."
 const rule3 = "Scissors cuts Paper."
 const rule4 = "It's a tie, play again!"
 const textEl = document.getElementById("text-el") 
-const rockEl = document.getElementById("rock-el")
-const paperEl = document.getElementById("paper-el")
-const scissorsEl = document.getElementById("scissors-el")
 const userScoreEl = document.getElementById("userScore-el")
 const cpuScoreEl = document.getElementById("cpuScore-el")
-const resetEl = document.getElementById("reset-el")
+const rockBtn = document.getElementById("rock-btn")
+const paperBtn = document.getElementById("paper-btn")
+const scissorsBtn = document.getElementById("scissors-btn")
+const resetBtn = document.getElementById("reset-btn")
 //Functions for users choice buttons
-rockEl.addEventListener("click", function() {
+rockBtn.addEventListener("click", function() {
     userPick = hand[0]
     renderGame()
 })
-paperEl.addEventListener("click", function() {
+paperBtn.addEventListener("click", function() {
     userPick = hand[1]
     renderGame()
 })
-scissorsEl.addEventListener("click", function() {
+scissorsBtn.addEventListener("click", function() {
     userPick = hand[2]
     renderGame()
 })
-resetEl.addEventListener("click", function() {
+resetBtn.addEventListener("click", function() {
     location.reload()
 })
 //Generate random number and alert computers choice
