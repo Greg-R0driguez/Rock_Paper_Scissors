@@ -4,14 +4,13 @@ body {
 .container {
     text-align: center;
     background-color: cadetblue;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
     border: 1px solid black;
-    padding: 50px;
+    max-width: 600px;
+    padding: 25px;
+    margin: 0 auto;
+    margin-top: 150px;
     border-radius: 5px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 button {
     color: cadetblue;
@@ -22,4 +21,7 @@ button {
     padding: 3px 0px 3px 0px;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+button:hover {
+    opacity: .8;
 }
