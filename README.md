@@ -1,5 +1,9 @@
-# Rock, paper, scissors game
+# Rock, paper, scissors game   
 
-This was an assignment from programming logic and design course, to practice writing an algorithm to play against the computer.
+👉  https://greg-r0driguez.github.io/rock_paper_scissors/  👈
+
+Assignment from programming logic and design course, to practice writing an algorithm to play against the computer.   
+
+Rules of the game.
 
 ![Image of game rules](/rpsImage.JPG)
