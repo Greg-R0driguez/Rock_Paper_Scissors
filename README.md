@@ -1,6 +1,6 @@
 # Rock, paper, scissors game   
 
-👉  https://greg-r0driguez.github.io/rock_paper_scissors/  👈
+👉  https://GregRodriguezJr.github.io/rock_paper_scissors/  👈
 
 Assignment from programming logic and design course, to practice writing an algorithm to play against the computer.   
 
